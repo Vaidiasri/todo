@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { useTodos, Todo } from "../hooks/useTodos";
+import { useTodos } from "../hooks/useTodos";
+import type { Todo } from "../hooks/useTodos";
 
 const Dashboard: React.FC = () => {
   const {
